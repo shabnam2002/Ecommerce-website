@@ -1,0 +1,12 @@
+@media (max-width: 575px) {
+  .category  {
+    width: 250px;
+  }
+}
+ .category img:hover{
+transform:  scale(0.5); 
+ }
+
+  .category img {
+cursor: pointer;
+transition: transform 2s ease }

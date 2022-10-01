@@ -1,0 +1,20 @@
+
+.shipping img{
+width: 60px;
+height: 50px;
+}
+
+.shipping p{
+font-size: 15px;
+
+}
+.back-shipping{
+    background-color: rgb(238, 235, 235);
+     padding: 10px 5px;
+     border-radius: 10px;
+     
+}
+.img-ads {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,61 @@
+.bg-top-nav{
+    background-color: rgb(17, 2, 52);
+}
+.cus-top-nav ,  .bg-top-nav p{
+    font-size: 12px;
+    
+}
+.cus-top-nav a , .cus-top-nav a.border-left {
+color: rgba(240, 248, 255, 0.842);    
+padding: 6px;
+border-color: rgb(69, 75, 75) !important;
+}
+.custom-font-size{
+    font-size: 12px;
+}
+.shop-card{
+    background-color: transparent;
+}
+.shop-card span{
+    vertical-align: 3px;
+
+}
+.basket a img{
+    width: 60px;
+    height: 60px;
+}
+.custom-navbar-nav{
+    font-size: 15px;
+}
+.custom-navbar-nav .nav-item{
+position: unset;
+}
+.dropdown-image img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+ 
+}
+.dropdown-image nav a i{
+    color: black;
+    font-size: 10px;
+    margin-left: 5px;
+}
+.dropdown-image nav a{
+    transition: 0.5s ease-in-out;
+}
+.dropdown-image nav a:hover{
+  margin-right: 5px;
+  color: rgb(139, 0, 42)!important;
+}
+.custom-nav-icon{
+    border: none;
+}
+::-webkit-input-placeholder{
+    font-size: 13px;
+}
+.cus-daste-search{
+          transform: translate3d(5px, 50px, -25px) !important;
+
+}

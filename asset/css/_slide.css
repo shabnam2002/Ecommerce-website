@@ -1,0 +1,5 @@
+.custom-col-3{
+    display: flex;
+        flex: 0 0 30%;
+    max-width: 20%;
+}
