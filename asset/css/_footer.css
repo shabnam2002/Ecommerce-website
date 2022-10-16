@@ -1,0 +1,52 @@
+.new-letters .news1{
+    font-size: 15px;
+}
+.news2 button{
+    font-size: 12px;
+}
+.main-section-footer div h6{
+    font-size: 14px;
+    border-bottom: 2px solid #84828248;
+    display: inline-flex;
+    padding-bottom: 5px;
+}
+.main-section-footer div nav a{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    transition: 0.2s ease-in-out;
+}
+.main-section-footer div .nav-footer a:hover{
+  margin-right: 3px;
+      color: rgb(91, 91, 91);
+
+}
+
+.main-section-footer .telephone  i{
+    font-size: 30px;
+    color: blue;
+    vertical-align: -15px;
+    margin-left: 15px;
+}
+.main-section-footer .tele-info div p , .tele-info p{
+    font-size: 14px;
+color: rgb(51, 51, 51);
+}
+.social-icon nav .nav-link i{
+    color: rgb(113, 114, 114);
+    font-size: 25px;
+    padding: 5px;
+        transition: 0.2s ease-in-out;
+
+}
+.social-icon nav .nav-link  .tele:hover{
+  color: blue;
+}
+.social-icon nav .nav-link  .insta:hover{
+  color: rgb(188, 16, 90);
+}
+.social-icon nav .nav-link  .tw:hover{
+  color: rgb(73, 73, 239);
+}
+.social-icon nav .nav-link  .fac:hover{
+  color: rgb(2, 2, 101);
+}

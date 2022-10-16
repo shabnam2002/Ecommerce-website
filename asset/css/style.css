@@ -4,6 +4,11 @@
 @import "_shipping.css";
 @import "_category.css";
 @import "_special-offer.css";
+@import "_popular-product.css";
+@import "ads.css";
+@import "_footer.css";
+@import "_login.css";
+@import "_product-breadcrumb";
 @font-face {
   font-family: Vazir-Medium;
   src: url("../font/Vazir-Medium.eot") format("eot"),

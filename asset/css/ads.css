@@ -1,0 +1,12 @@
+.ads-style{
+    border-radius: 10px;
+    transition:  0.5s ease;
+
+}
+.ads-style-ani:hover{
+transform:  scale(1.1);
+}
+.divani{
+     border-radius: 10px;
+overflow: hidden;
+}

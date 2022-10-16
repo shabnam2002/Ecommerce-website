@@ -1,0 +1,59 @@
+.p-title , .p-price{
+    font-size: 15px;
+
+}
+.img-pop{
+    width: 200px !important;
+}
+.owl-nav{
+    position: absolute;
+    top: 129px;
+        font-size: 40px;
+        width: 100%;
+}
+.owl-carousel .owl-nav  .owl-prev{
+position: absolute;
+right: 0;
+    
+}
+.owl-carousel .owl-nav  .owl-next{
+position: absolute;
+left: 0;
+}
+
+.owl-carousel .owl-nav  .owl-prev span ,.owl-carousel .owl-nav  .owl-next span {
+    background-color: #efefef;
+    width: 42px;
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 1px #efefef;
+   
+}
+.owl-carousel .owl-nav  .owl-prev span:hover ,.owl-carousel .owl-nav  .owl-next span:hover {
+    color: rgb(100, 89, 89);
+}
+
+
+
+.owl-carousel .owl-dots{
+display: none;
+}
+.owl-carousel .owl-nav  .owl-prev:active , .owl-carousel .owl-prev  .owl-prev:active{
+background-color: #efefef;
+}
+.title-pop-product{
+    top: 0;
+    right: 0;
+    font-size: 20px;
+        margin-top: -34px;
+        border-bottom: 3px solid red;
+}
+.brand .owl-nav{
+display: none;
+}
+.brand .owl-dots{
+display: block;
+}
+.brand img{
+    width: 200px !important;
+}

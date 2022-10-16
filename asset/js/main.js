@@ -1,3 +1,9 @@
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel();
+});
+
+
+
 function updateTimer() {
   future = Date.parse("october 30, 2022 01:30:00");
   now = new Date();
@@ -12,7 +18,10 @@ function updateTimer() {
   h = hours - days * 24;
   m = mins - hours * 60;
   s = secs - mins * 60;
-
+  if (diff < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = " یلبالالبه پابان رسید";
+  }
   document.getElementById("timer").innerHTML =
     "<div>" +
     d +
@@ -28,3 +37,22 @@ function updateTimer() {
     "<span>ثانبه</span></div>";
 }
 setInterval("updateTimer()", 1000);
+
+$(".owl-carousel").owlCarousel({
+  rtl: true,
+  loop: false,
+  margin: 0,
+  slideBy:4,
+  nav: true,
+  responsive: {
+    0: {
+      items: 2,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 4,
+    },
+  },
+});

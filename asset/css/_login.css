@@ -1,0 +1,12 @@
+.form-login label{
+    font-size: 14px;
+}
+.form-login input{
+    border: none;
+        box-shadow: 1px 0rem 0.25rem rgb(0 0 0 / 13%) !important;
+}
+.modal-footer a{
+    font-size: 13px;
+    color: rgb(79, 78, 78);
+    text-decoration: none;
+}
