@@ -1,8 +1,93 @@
 
-.breadcrumb-item + .breadcrumb-item::before  {
-   
-    content: ">" !important;
-}
+
 .breadcrumb-item + .breadcrumb-item::before {
-    content: "df"!important;
+    content: "<"!important;
+}
+
+.product-dec{
+    line-height: 2;
+     text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+  color: rgb(67, 67, 67);
+    }
+    .offer-price-cus s{
+color: brown;
+    }
+    .star-text-product{
+        font-size: 13px;
+            color: orange;
+    }
+    .star-single-product  i{
+    font-size:15px;
+    color: orange;
+    padding-right: 1px;
+    margin-bottom: 15px;
+}
+.fa-heart:hover{
+    color: brown;
+}
+.title-vizhegi{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.ul-vizhegi li{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: rgb(98, 98, 98);
+     padding-right: 10px;
+}
+.ul-vizhegi li i{
+        font-size: 10px;
+    color: rgb(98, 98, 98);
+
+}
+.navlink-single-product-cus .nav-link{
+    border-radius: 0;
+
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            border-top: 2px solid red;
+            color: red;
+
+}
+.navlink-single-product-cus a{
+    color: rgb(59, 59, 59);
+}
+.tab-single-product-cus{
+         text-align: justify;
+  text-justify: inter-word;
+  color: rgb(80, 79, 79);
+  line-height: 2;
+  font-size: 14px;
+}
+.tab-single-product-cus div h6{
+  color: rgb(23, 23, 23);
+}
+.road-circle i{
+position: absolute;
+top: -5px;
+    right: -7px;
+}
+.br-opacity-1{
+    border-bottom: 1px solid rgba(225, 223, 223, 0.678) !important;
+}
+.name-vi{
+    flex: 0 0 15%;
+    color: rgb(122, 122, 121);
+   
+}
+.type{
+        flex: 0 0 85%;
+       
+
+}
+.comment div img{
+    width: 50px;
+}
+.comment-ract{
+    font-size: 13px;
+        color: rgb(122, 122, 121);
+           position: absolute;
+    left: 18px;
 }
